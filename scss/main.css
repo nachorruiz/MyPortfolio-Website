@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Sixtyfour&display=swap");
+#logo {
+  width: 10%;
+  transition: 0.2s;
+}
+#logo:hover {
+  width: 10.5%;
+}
+
+.navbar-nav {
+  --bs-nav-link-color: #6c757d;
+}
+.navbar-nav .nav-link.active {
+  color: #f8f9fa;
+}
+.navbar-nav .nav-link {
+  transition: 0.2s;
+}
+.navbar-nav .nav-link:hover {
+  font-size: 18px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: right;
+}
+
+.navbar {
+  background-color: #121212;
+  box-shadow: 0 0 20px -5px gray;
+}
+
+#index {
+  background-color: #131313;
+}
+
+.asideContainer {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 28%;
+  margin-left: 3%;
+  margin-top: 5%;
+  box-shadow: 0 0 20px -5px yellow;
+  padding: 0 0 250px 0;
+}
+.asideContainer .asideContenido {
+  text-align: justify;
+}
+.asideContainer .asideContenido h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  color: #fddf2f;
+}
+.asideContainer .asideContenido h2 {
+  font-family: "Sixtyfour", sans-serif;
+  font-size: 35px;
+  color: #fddf2f;
+}
+
+/*    MEDIA QUERIES    */
+@media only screen and (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    flex-basis: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */

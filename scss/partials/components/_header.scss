@@ -1,0 +1,29 @@
+#logo{
+    width: 10%;
+    transition: 0.2s;
+    &:hover{
+        width: 10.5%;
+    }
+}
+
+.navbar-nav{
+    --bs-nav-link-color: #6c757d;
+    .nav-link.active{
+        color: #f8f9fa;
+    }
+    .nav-link{
+        transition: 0.2s;
+        &:hover{
+            font-size: 18px;
+        }
+    }
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: right;
+}
+
+.navbar{
+    background-color: #121212;
+    box-shadow: 0 0 20px -5px gray;
+}

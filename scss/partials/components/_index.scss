@@ -1,0 +1,29 @@
+//BACKGROUNDS
+#index{
+    background-color: #131313;
+}
+
+//MAIN
+.asideContainer{
+    //background-image: url("../../../styles/imagenes/unnamed.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 28%;
+    margin-left: 3%;
+    margin-top: 5%;
+    box-shadow: 0 0 20px -5px yellow;
+    padding: 0 0 250px 0;
+    .asideContenido{
+        text-align: justify;
+        h1{
+            font-family: 'Playfair Display', serif;
+            font-size: 40px;
+            color: #fddf2f;
+        }
+        h2{
+            font-family: 'Sixtyfour', sans-serif;
+            font-size: 35px;
+            color: #fddf2f;
+        }
+    }
+}
