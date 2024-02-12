@@ -1,29 +1,88 @@
 //BACKGROUNDS
 #index{
-    background-color: #131313;
+    background-color: #29292A;
+    padding: 1% 1% 35% 1%;
 }
 
 //MAIN
 .asideContainer{
-    //background-image: url("../../../styles/imagenes/unnamed.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 28%;
-    margin-left: 3%;
-    margin-top: 5%;
-    box-shadow: 0 0 20px -5px yellow;
-    padding: 0 0 250px 0;
+    margin-top: 10%;
+    margin-left: 1%;
+    width: 48%;
     .asideContenido{
         text-align: justify;
         h1{
-            font-family: 'Playfair Display', serif;
-            font-size: 40px;
-            color: #fddf2f;
+            font-family: 'Aboreto', system-ui;
+            font-size: 45px;
+            color: map-get($mainColors, azulTxt);
+            font-weight: bolder;
+            text-shadow: 4px 4px 6px map-get($mainColors, azulAlt);
+            letter-spacing: 10px;
+            text-align: left;
+            -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+            line-height: 0.70em;
+            outline: none;
+            animation: textoNeon 5s linear infinite;
+            strong{
+                font-size: 40px;
+                color: white;
+                text-shadow: 0px 0px 0px map-get($mainColors, transparente);
+                -webkit-box-reflect: below 1px linear-gradient(transparent, #29292A);
+            }
         }
         h2{
             font-family: 'Sixtyfour', sans-serif;
             font-size: 35px;
-            color: #fddf2f;
+            margin-top: 3%;
+            color: map-get($mainColors, azulTxt);
+            text-align: left;
+            /*position: relative;
+            &::before{
+                content: "";
+                right: -8px;
+                top: 50%;
+                position: absolute;
+                height: 30px;
+                width: 2px;
+                background: map-get($mainColors, azulTxt);
+                transform: translateY(-45%);
+                animation: blink 0.7s infinite;
+            }
+
+            span.stop-blinking::before{
+                animation: none;
+            }*/
         }
     }
+}
+
+@keyframes blink {
+    50%
+    {
+        opacity: 0;
+    }
+}
+
+@keyframes textoNeon {
+    0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%
+    {
+        color: map-get($mainColors, azulTxt);
+        text-shadow: none;
+    }
+    18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100%
+    {
+        color: #fff;
+        text-shadow: 0 0 10px map-get($mainColors, azulAlt),
+        0 0 20px map-get($mainColors, azulAlt),
+        0 0 40px map-get($mainColors, azulAlt),
+        0 0 80px map-get($mainColors, azulAlt),
+        0 0 160px map-get($mainColors, azulAlt),
+    }
+}
+
+//MULTIMEDIA
+.autoRetrato{
+    width: 40%;
+    margin-left: 55%;
+    margin-top: -10%;
 }

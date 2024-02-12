@@ -2,10 +2,12 @@
 @import "partials/base/tipografia";
 
 //UTILITIES
-
+@import "partials/utilities/animations";
+@import "partials/utilities/maps";
 
 //COMPONENTS
 @import "partials/components/header";
 @import "partials/components/index";
 @import "partials/components/footer";
 @import "partials/components/mediaqueries";
+@import "partials/components/buttons";

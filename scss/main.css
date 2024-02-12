@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Sixtyfour&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Limelight&family=Oleo+Script+Swash+Caps&display=swap");
 #logo {
-  width: 10%;
+  width: 15%;
   transition: 0.2s;
 }
 #logo:hover {
-  width: 10.5%;
+  width: 15.5%;
 }
 
 .navbar-nav {
@@ -25,35 +26,85 @@
 }
 
 .navbar {
-  background-color: #121212;
+  background-color: #1B1B1B;
   box-shadow: 0 0 20px -5px gray;
 }
 
 #index {
-  background-color: #131313;
+  background-color: #29292A;
+  padding: 1% 1% 35% 1%;
 }
 
 .asideContainer {
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 28%;
-  margin-left: 3%;
-  margin-top: 5%;
-  box-shadow: 0 0 20px -5px yellow;
-  padding: 0 0 250px 0;
+  margin-top: 10%;
+  margin-left: 1%;
+  width: 48%;
 }
 .asideContainer .asideContenido {
   text-align: justify;
 }
 .asideContainer .asideContenido h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "Aboreto", system-ui;
+  font-size: 45px;
+  color: #007fa6;
+  font-weight: bolder;
+  text-shadow: 4px 4px 6px rgba(0, 214, 254, 0.5);
+  letter-spacing: 10px;
+  text-align: left;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(0, 0, 0, 0.5333333333));
+  line-height: 0.7em;
+  outline: none;
+  animation: textoNeon 5s linear infinite;
+}
+.asideContainer .asideContenido h1 strong {
   font-size: 40px;
-  color: #fddf2f;
+  color: white;
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #29292A);
 }
 .asideContainer .asideContenido h2 {
   font-family: "Sixtyfour", sans-serif;
   font-size: 35px;
-  color: #fddf2f;
+  margin-top: 3%;
+  color: #007fa6;
+  text-align: left;
+  /*position: relative;
+  &::before{
+      content: "";
+      right: -8px;
+      top: 50%;
+      position: absolute;
+      height: 30px;
+      width: 2px;
+      background: map-get($mainColors, azulTxt);
+      transform: translateY(-45%);
+      animation: blink 0.7s infinite;
+  }
+
+  span.stop-blinking::before{
+      animation: none;
+  }*/
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes textoNeon {
+  0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
+    color: #007fa6;
+    text-shadow: none;
+  }
+  18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100% {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 214, 254, 0.5), 0 0 20px rgba(0, 214, 254, 0.5), 0 0 40px rgba(0, 214, 254, 0.5), 0 0 80px rgba(0, 214, 254, 0.5), 0 0 160px rgba(0, 214, 254, 0.5);
+  }
+}
+.autoRetrato {
+  width: 40%;
+  margin-left: 55%;
+  margin-top: -10%;
 }
 
 /*    MEDIA QUERIES    */
@@ -61,4 +112,11 @@
   .navbar-expand-lg .navbar-collapse {
     flex-basis: 100%;
   }
+}
+.buttonContacto {
+  font-family: "Aboreto", system-ui;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid rgba(0, 214, 254, 0.5);
+  border-radius: 2px;
+  color: rgba(0, 214, 254, 0.5);
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,7 @@
+.buttonContacto{
+    font-family: 'Aboreto', system-ui;
+    background-color: map-get($mainColors, transparente);
+    border: 2px solid map-get($mainColors, azulAlt);
+    border-radius: 2px;
+    color: map-get($mainColors, azulAlt);
+}
