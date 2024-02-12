@@ -1,4 +1,8 @@
 //BACKGROUNDS
+.bodys{
+    overflow-x: hidden;
+}
+
 #index{
     background-color: #29292A;
     padding: 1% 1% 35% 1%;
@@ -14,7 +18,7 @@
         width: 135%;
         h1{
             font-family: 'Aboreto', system-ui;
-            font-size: 45px;
+            font-size: 50px;
             color: map-get($mainColors, azulTxt);
             font-weight: bolder;
             text-shadow: 4px 4px 6px map-get($mainColors, azulAlt);
@@ -59,8 +63,16 @@
     }
 }
 
-.sectionContainer{
-    width: 50%;
+#tituloPie{
+    font-family: "Aboreto", system-ui;
+    color: #fff;
+    text-shadow: 0px 0px 10px #fff;
+    position: relative;
+    font-size: 100%;
+    margin-left: 69%;
+    margin-right: 15%;
+    text-align: center;
+    padding: 0 0;
 }
 
 @keyframes textoNeon {
@@ -82,9 +94,10 @@
 
 //MULTIMEDIA
 .autoRetrato{
-    width: 100%;
-    margin-left: 100%;
-    margin-top: -30%;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -15%;
+    box-shadow: 0 10px 20px 10px;
 }
 
 #thm_badge{
@@ -94,9 +107,23 @@
 
 .redes{
     content: "";
-    height: 98px;
+    height: 8vh;
     width: 4px;
-    margin-left: 90%;
-    margin-top: -13%;
+    position: relative;
+    left: 90%;
+    bottom: 245px;
     background: map-get($mainColors, azulTxt);
+    border-radius: 2px;
+}
+.fa-brands{
+    color: #fff;
+    position: relative;
+    top: 104%;
+    margin-top: 0.5rem;
+    margin-left: -0.55rem;
+    font-size: 2.2vh;
+    transition: 0.2s;
+    &:hover{
+        font-size: 2.6vh;
+    }
 }

@@ -13,12 +13,14 @@
 }
 .navbar-nav .nav-link.active {
   color: #f8f9fa;
+  text-decoration: line-through;
 }
 .navbar-nav .nav-link {
   transition: 0.2s;
 }
 .navbar-nav .nav-link:hover {
   font-size: 18px;
+  color: #f8f9fa;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -27,9 +29,13 @@
 
 .navbar {
   background-color: #1B1B1B;
-  box-shadow: 0 0 20px -5px gray;
+  box-shadow: 0 14px 30px 5px;
   font-weight: bolder;
   font-family: "Aboreto", system-ui;
+}
+
+.bodys {
+  overflow-x: hidden;
 }
 
 #index {
@@ -48,7 +54,7 @@
 }
 .asideContainer .asideContenido h1 {
   font-family: "Aboreto", system-ui;
-  font-size: 45px;
+  font-size: 50px;
   color: #007fa6;
   font-weight: bolder;
   text-shadow: 4px 4px 6px rgba(0, 214, 254, 0.5);
@@ -91,8 +97,16 @@
   }*/
 }
 
-.sectionContainer {
-  width: 50%;
+#tituloPie {
+  font-family: "Aboreto", system-ui;
+  color: #fff;
+  text-shadow: 0px 0px 10px #fff;
+  position: relative;
+  font-size: 100%;
+  margin-left: 69%;
+  margin-right: 15%;
+  text-align: center;
+  padding: 0 0;
 }
 
 @keyframes textoNeon {
@@ -106,9 +120,10 @@
   }
 }
 .autoRetrato {
-  width: 100%;
-  margin-left: 100%;
-  margin-top: -30%;
+  width: 50%;
+  margin-left: 50%;
+  margin-top: -15%;
+  box-shadow: 0 10px 20px 10px;
 }
 
 #thm_badge {
@@ -118,11 +133,26 @@
 
 .redes {
   content: "";
-  height: 98px;
+  height: 8vh;
   width: 4px;
-  margin-left: 90%;
-  margin-top: -13%;
+  position: relative;
+  left: 90%;
+  bottom: 245px;
   background: #007fa6;
+  border-radius: 2px;
+}
+
+.fa-brands {
+  color: #fff;
+  position: relative;
+  top: 104%;
+  margin-top: 0.5rem;
+  margin-left: -0.55rem;
+  font-size: 2.2vh;
+  transition: 0.2s;
+}
+.fa-brands:hover {
+  font-size: 2.6vh;
 }
 
 /*    MEDIA QUERIES    */
@@ -141,4 +171,11 @@
   font-size: 18px;
   margin-top: 2%;
   margin-left: 1%;
+  border-radius: 4px;
+  transition: 0.8s;
+}
+.buttonContacto:hover {
+  color: #007fa6;
+  font-size: 18.5px;
+  text-shadow: 0 0 10px rgba(0, 214, 254, 0.5), 0 0 20px rgba(0, 214, 254, 0.5), 0 0 40px rgba(0, 214, 254, 0.5), 0 0 80px rgba(0, 214, 254, 0.5), 0 0 160px rgba(0, 214, 254, 0.5);
 }/*# sourceMappingURL=main.css.map */

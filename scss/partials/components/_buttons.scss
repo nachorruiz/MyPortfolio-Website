@@ -8,4 +8,15 @@
     font-size: 18px;
     margin-top: 2%;
     margin-left: 1%;
+    border-radius: 4px;
+    transition: 0.8s;
+    &:hover{
+        color: map-get($mainColors, azulTxt);
+        font-size: 18.5px;
+        text-shadow: 0 0 10px map-get($mainColors, azulAlt),
+        0 0 20px map-get($mainColors, azulAlt),
+        0 0 40px map-get($mainColors, azulAlt),
+        0 0 80px map-get($mainColors, azulAlt),
+        0 0 160px map-get($mainColors, azulAlt),
+    }
 }
