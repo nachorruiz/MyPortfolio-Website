@@ -1,5 +1,5 @@
 const dynamicText = document.querySelector("h2 span");
-const words = ["Desarrollador Web Junior", "Asociado en Ciberseguridad", "Estudiante de Ingeniería en Sistemas"];
+const words = ["Desarrollador Web Junior", "Asociado en Ciberseguridad", "Estudiante de Ing. en Sistemas"];
 
 let wordIndex = 0;
 let charIndex = 0;

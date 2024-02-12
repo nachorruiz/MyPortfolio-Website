@@ -28,6 +28,8 @@
 .navbar {
   background-color: #1B1B1B;
   box-shadow: 0 0 20px -5px gray;
+  font-weight: bolder;
+  font-family: "Aboreto", system-ui;
 }
 
 #index {
@@ -42,6 +44,7 @@
 }
 .asideContainer .asideContenido {
   text-align: justify;
+  width: 135%;
 }
 .asideContainer .asideContenido h1 {
   font-family: "Aboreto", system-ui;
@@ -49,6 +52,7 @@
   color: #007fa6;
   font-weight: bolder;
   text-shadow: 4px 4px 6px rgba(0, 214, 254, 0.5);
+  margin-left: 1%;
   letter-spacing: 10px;
   text-align: left;
   -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(0, 0, 0, 0.5333333333));
@@ -64,8 +68,9 @@
 }
 .asideContainer .asideContenido h2 {
   font-family: "Sixtyfour", sans-serif;
-  font-size: 35px;
-  margin-top: 3%;
+  font-size: 20px;
+  margin-top: 4%;
+  margin-left: 0.5%;
   color: #007fa6;
   text-align: left;
   /*position: relative;
@@ -86,11 +91,10 @@
   }*/
 }
 
-@keyframes blink {
-  50% {
-    opacity: 0;
-  }
+.sectionContainer {
+  width: 50%;
 }
+
 @keyframes textoNeon {
   0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
     color: #007fa6;
@@ -102,9 +106,23 @@
   }
 }
 .autoRetrato {
-  width: 40%;
-  margin-left: 55%;
-  margin-top: -10%;
+  width: 100%;
+  margin-left: 100%;
+  margin-top: -30%;
+}
+
+#thm_badge {
+  position: absolute;
+  right: 45%;
+}
+
+.redes {
+  content: "";
+  height: 98px;
+  width: 4px;
+  margin-left: 90%;
+  margin-top: -13%;
+  background: #007fa6;
 }
 
 /*    MEDIA QUERIES    */
@@ -117,6 +135,10 @@
   font-family: "Aboreto", system-ui;
   background-color: rgba(0, 0, 0, 0);
   border: 2px solid rgba(0, 214, 254, 0.5);
+  padding: 4px 16px;
   border-radius: 2px;
   color: rgba(0, 214, 254, 0.5);
+  font-size: 18px;
+  margin-top: 2%;
+  margin-left: 1%;
 }/*# sourceMappingURL=main.css.map */

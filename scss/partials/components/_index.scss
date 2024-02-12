@@ -11,12 +11,14 @@
     width: 48%;
     .asideContenido{
         text-align: justify;
+        width: 135%;
         h1{
             font-family: 'Aboreto', system-ui;
             font-size: 45px;
             color: map-get($mainColors, azulTxt);
             font-weight: bolder;
             text-shadow: 4px 4px 6px map-get($mainColors, azulAlt);
+            margin-left: 1%;
             letter-spacing: 10px;
             text-align: left;
             -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
@@ -32,8 +34,9 @@
         }
         h2{
             font-family: 'Sixtyfour', sans-serif;
-            font-size: 35px;
-            margin-top: 3%;
+            font-size: 20px;
+            margin-top: 4%;
+            margin-left: 0.5%;
             color: map-get($mainColors, azulTxt);
             text-align: left;
             /*position: relative;
@@ -56,11 +59,8 @@
     }
 }
 
-@keyframes blink {
-    50%
-    {
-        opacity: 0;
-    }
+.sectionContainer{
+    width: 50%;
 }
 
 @keyframes textoNeon {
@@ -82,7 +82,21 @@
 
 //MULTIMEDIA
 .autoRetrato{
-    width: 40%;
-    margin-left: 55%;
-    margin-top: -10%;
+    width: 100%;
+    margin-left: 100%;
+    margin-top: -30%;
+}
+
+#thm_badge{
+    position: absolute;
+    right: 45%;
+}
+
+.redes{
+    content: "";
+    height: 98px;
+    width: 4px;
+    margin-left: 90%;
+    margin-top: -13%;
+    background: map-get($mainColors, azulTxt);
 }
