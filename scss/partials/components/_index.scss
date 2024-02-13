@@ -4,7 +4,7 @@
 }
 
 #index{
-    background-color: #29292A;
+    background-color: #29292a;
     padding: 1% 1% 35% 1%;
 }
 
@@ -71,6 +71,7 @@
     font-size: 100%;
     margin-left: 69%;
     margin-right: 15%;
+    bottom: 200px;
     text-align: center;
     padding: 0 0;
 }
@@ -93,11 +94,37 @@
 }
 
 //MULTIMEDIA
-.autoRetrato{
-    width: 50%;
-    margin-left: 50%;
-    margin-top: -15%;
+.sectionContainer{
+    position: relative;
+    bottom: 50px;
+}
+
+.sectionContenido{
+    width: 25%;
+    left: 64%;
+    bottom: 200px;
     box-shadow: 0 10px 20px 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 25%;
+    height: 37vh;
+    background-color: #1B1B1B;
+}
+
+.autoRetrato{
+    width: 200%;
+    position: absolute;
+    top: -3%;
+}
+
+@keyframes bordeMoving {
+    0%
+    {
+        transform: rotate(0deg);
+    }
 }
 
 #thm_badge{
@@ -111,7 +138,7 @@
     width: 4px;
     position: relative;
     left: 90%;
-    bottom: 245px;
+    bottom: 478px;
     background: map-get($mainColors, azulTxt);
     border-radius: 2px;
 }

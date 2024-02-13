@@ -39,7 +39,7 @@
 }
 
 #index {
-  background-color: #29292A;
+  background-color: #29292a;
   padding: 1% 1% 35% 1%;
 }
 
@@ -105,6 +105,7 @@
   font-size: 100%;
   margin-left: 69%;
   margin-right: 15%;
+  bottom: 200px;
   text-align: center;
   padding: 0 0;
 }
@@ -119,13 +120,37 @@
     text-shadow: 0 0 10px rgba(0, 214, 254, 0.5), 0 0 20px rgba(0, 214, 254, 0.5), 0 0 40px rgba(0, 214, 254, 0.5), 0 0 80px rgba(0, 214, 254, 0.5), 0 0 160px rgba(0, 214, 254, 0.5);
   }
 }
-.autoRetrato {
-  width: 50%;
-  margin-left: 50%;
-  margin-top: -15%;
-  box-shadow: 0 10px 20px 10px;
+.sectionContainer {
+  position: relative;
+  bottom: 50px;
 }
 
+.sectionContenido {
+  width: 25%;
+  left: 64%;
+  bottom: 200px;
+  box-shadow: 0 10px 20px 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 25%;
+  height: 37vh;
+  background-color: #1B1B1B;
+}
+
+.autoRetrato {
+  width: 200%;
+  position: absolute;
+  top: -3%;
+}
+
+@keyframes bordeMoving {
+  0% {
+    transform: rotate(0deg);
+  }
+}
 #thm_badge {
   position: absolute;
   right: 45%;
@@ -137,7 +162,7 @@
   width: 4px;
   position: relative;
   left: 90%;
-  bottom: 245px;
+  bottom: 478px;
   background: #007fa6;
   border-radius: 2px;
 }
