@@ -53,6 +53,45 @@
   bottom: -4%;
 }
 
+.secondSection {
+  background: #0f0c29; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: relative;
+  height: 990px;
+  padding: 1%;
+}
+
+.containerSecondsection {
+  position: relative;
+  top: 10rem;
+}
+.containerSecondsection h2 {
+  font-family: "Aboreto", system-ui;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+}
+
+.custom-shape-divider-top-1707935947 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1707935947 svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 178px;
+}
+
+.custom-shape-divider-top-1707935947 .shape-fill {
+  fill: #000000;
+}
+
 .asideContainer {
   margin-top: 10%;
   margin-left: 1%;
