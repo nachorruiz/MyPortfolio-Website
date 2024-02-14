@@ -5,7 +5,15 @@
 
 #index{
     background-color: #29292a;
-    padding: 1% 1% 35% 1%;
+}
+
+.spline{
+    position: absolute;
+    right: 5%;
+    left: -1%;
+    width: 101%;
+    height: 100%;
+    bottom: -4%;
 }
 
 //MAIN
@@ -43,8 +51,8 @@
             margin-left: 0.5%;
             color: map-get($mainColors, azulTxt);
             text-align: left;
-            /*position: relative;
-            &::before{
+            position: relative;
+            /*&::before{
                 content: "";
                 right: -8px;
                 top: 50%;
@@ -103,7 +111,7 @@
     width: 25%;
     left: 64%;
     bottom: 200px;
-    box-shadow: 0 10px 20px 10px;
+    box-shadow: 0 10px 48px -15px #67004c;
     position: relative;
     display: flex;
     justify-content: center;
@@ -111,7 +119,7 @@
     overflow: hidden;
     border-radius: 25%;
     height: 37vh;
-    background-color: #1B1B1B;
+    background-color: #2406412e;
 }
 
 .autoRetrato{
@@ -153,4 +161,16 @@
     &:hover{
         font-size: 2.6vh;
     }
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background: #24011a;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: 0 0 10px inset #1B1B1B;
 }

@@ -28,10 +28,12 @@
 }
 
 .navbar {
-  background-color: #1B1B1B;
-  box-shadow: 0 14px 30px 5px;
+  background-color: #000000;
+  box-shadow: 0 14px 30px 5px #000000;
   font-weight: bolder;
   font-family: "Aboreto", system-ui;
+  position: relative;
+  z-index: 1;
 }
 
 .bodys {
@@ -40,7 +42,15 @@
 
 #index {
   background-color: #29292a;
-  padding: 1% 1% 35% 1%;
+}
+
+.spline {
+  position: absolute;
+  right: 5%;
+  left: -1%;
+  width: 101%;
+  height: 100%;
+  bottom: -4%;
 }
 
 .asideContainer {
@@ -79,8 +89,8 @@
   margin-left: 0.5%;
   color: #007fa6;
   text-align: left;
-  /*position: relative;
-  &::before{
+  position: relative;
+  /*&::before{
       content: "";
       right: -8px;
       top: 50%;
@@ -129,7 +139,7 @@
   width: 25%;
   left: 64%;
   bottom: 200px;
-  box-shadow: 0 10px 20px 10px;
+  box-shadow: 0 10px 48px -15px #67004c;
   position: relative;
   display: flex;
   justify-content: center;
@@ -137,7 +147,7 @@
   overflow: hidden;
   border-radius: 25%;
   height: 37vh;
-  background-color: #1B1B1B;
+  background-color: rgba(36, 6, 65, 0.1803921569);
 }
 
 .autoRetrato {
@@ -180,6 +190,19 @@
   font-size: 2.6vh;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #24011a;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: 0 0 10px inset #1B1B1B;
+}
+
 /*    MEDIA QUERIES    */
 @media only screen and (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
@@ -198,6 +221,8 @@
   margin-left: 1%;
   border-radius: 4px;
   transition: 0.8s;
+  position: relative;
+  z-index: 1;
 }
 .buttonContacto:hover {
   color: #007fa6;

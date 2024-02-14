@@ -10,6 +10,8 @@
     margin-left: 1%;
     border-radius: 4px;
     transition: 0.8s;
+    position: relative;
+    z-index: 1;
     &:hover{
         color: map-get($mainColors, azulTxt);
         font-size: 18.5px;
