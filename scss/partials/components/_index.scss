@@ -22,19 +22,98 @@
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     position: relative;
-    height: 990px;
+    height: 1100px;
     padding: 1%;
 }
 
 .containerSecondsection{
     position: relative;
     top: 10rem;
+    margin-left: 3%;
 
     h2{
-        font-family: 'Aboreto', system-ui;
-        font-size: 50px;
+        font-family: "Source Sans 3", sans-serif;
+        font-weight: 600;
+        font-size: 60px;
         font-weight: bolder;
         color: white;
+    }
+
+    h3{
+        font-family: "Source Sans 3", sans-serif;
+        font-weight: 600;
+        font-size: 60px;
+        font-weight: bolder;
+        color: white;
+        position: relative;
+        text-align: center;
+        margin-right: 3%;
+        top: 95px;
+    }
+
+    p{
+        font-family: "Source Sans 3", sans-serif;
+        font-weight: 350;
+        font-size: 25px;
+        color: white;
+        margin: 0 5% 0 5%;
+        text-align: left;
+    }
+
+    #parrafo{
+        content: "";
+        height: 4px;
+        width: 4%;
+        position: relative;
+        background: map-get($mainColors, azulTxt);
+        top: 20px;
+    }
+}
+
+.habilidadesContenedor{
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-right: 3%;
+    gap: 2%;
+    flex-wrap: wrap;
+    .habilidades{
+        background-color: rgba($color: blue, $alpha: 0.2);
+        width: 250px;
+        height: 200px;
+        margin-top: 2%;
+        border-radius: 16px;
+        p{
+            color: white;
+            font-weight: 600;
+            position: relative;
+            text-align: center;
+            bottom: 30px;
+        }
+    }
+    .fa-brands{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 45px 0;
+        margin: 0;
+        position: unset;
+        font-size: 70px;
+        &:hover{
+            font-size: 70px;
+        }
+    }
+
+    .skillLogos{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 35%;
+        padding: 45px 0;
+        left: 80px;
+        position: relative;
+        margin: 0;
     }
 }
 
