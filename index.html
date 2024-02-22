@@ -25,7 +25,7 @@
                     <img src="styles/imagenes/Logo-IgnacioRuiz-1.png" id="logo" alt="Logo de Ignacio Ruiz">
                 </a>
 
-                <script src="https://tryhackme.com/badge/2611747"></script>
+                <!--<script src="https://tryhackme.com/badge/2611747"></script>-->
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,6 +40,13 @@
             </div>
         </nav>
     </header>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
 
     <main id="index">
 
@@ -117,11 +124,11 @@
                         <p>JavaScript</p>
                     </div>
                     <div class="habilidades">
-                        <i class="fa-brands fa-sass"></i>
+                        <img src="styles/imagenes/logos/sass.png" class="skillLogos" alt="">
                         <p>SASS</p>
                     </div>
                     <div class="habilidades">
-                        <i class="fa-brands fa-git-alt"></i>
+                        <img src="styles/imagenes/logos/git.png" class="skillLogos" alt="">
                         <p>Git</p>
                     </div>
                     <div class="habilidades">
@@ -131,6 +138,14 @@
                     <div class="habilidades">
                         <img src="styles/imagenes/logos/letra-c.png" class="skillLogos" alt="">
                         <p>C</p>
+                    </div>
+                    <div class="habilidades">
+                        <img src="styles/imagenes/logos/kali.png" class="skillLogos" alt="">
+                        <p>Kali Linux</p>
+                    </div>
+                    <div class="habilidades">
+                        <img src="styles/imagenes/logos/assembly.png" class="skillLogos" alt="">
+                        <p>Assembly</p>
                     </div>
                 </div>
 

@@ -26,10 +26,38 @@
 }
 
 .navbar{
-    background-color: #000000;
-    box-shadow: 0 14px 30px 5px #000000;
+    background-color: transparent;
     font-weight: bolder;
     font-family: 'Aboreto', system-ui;
-    position: relative;
+    position: fixed;
+    padding: 0;
+    top: 0;
     z-index: 1;
+    transition: 0.3s;
+}
+
+header.sticky{
+    .navbar{
+        background-color: #fff;
+        width: 50%;
+        padding: 0;
+        top: 0;
+        right: 25%;
+        border-radius: 0 0 200px 200px;
+        box-shadow: 0 0 5px 1px gray;
+    }
+    #logo{
+        display: none;
+    }
+    .navbar-collapse{
+        justify-content: center;
+    }
+    .nav-link.active{
+        color: #000000;
+    }
+    .nav-link{
+        &:hover{
+            color: #000000;
+        }
+    }
 }
