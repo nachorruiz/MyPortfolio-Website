@@ -1,0 +1,65 @@
+#linknavLenguajes{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    top: 10rem;
+    margin-left: 3%;
+}
+
+.grafico-lenguaje{
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+    position: relative;
+    top: 12%;
+    h5{
+        font-family: "Source Sans 3", sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        color: #171a1d;
+    }
+
+    h6{
+        font-family: "Source Sans 3", sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        color: #171a1d;
+        position: relative;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        letter-spacing: -5px;
+        left: 90px;
+        bottom: 70px;
+    }
+
+    #avanzado-ingles{
+        left: 70px;
+        bottom: 60px;
+    }
+
+    #grafico-ingles{
+        width: 100px;
+        height: 250px;
+        background: rgb(254,35,35);
+        background: linear-gradient(0deg, rgba(254,35,35,1) 0%, rgba(255,208,65,1) 95%, rgba(0,255,149,1) 100%);
+        position: relative;
+        top: 47px;
+        border-radius: 0 0 4px 4px;
+        box-shadow: 0 0 6px 1px gray;
+    }
+    #grafico-espanol{
+        width: 100px;
+        height: 300px;
+        background: rgb(254,35,35);
+        background: linear-gradient(0deg, rgba(254,35,35,1) 0%, rgba(255,208,65,1) 80%, rgba(0,255,149,1) 100%);
+        position: relative;
+        left: 20px;
+        top: 10px;
+        border-radius: 0 0 4px 4px;
+        box-shadow: 0 0 6px 1px gray;
+    }
+}
