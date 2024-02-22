@@ -1,3 +1,4 @@
+//LETRAS DINAMICAS // TYPING EFFECT
 const dynamicText = document.querySelector("h2 span");
 const words = ["Desarrollador Web Junior", "Asociado en Ciberseguridad", "Estudiante de Ing. en Sistemas"];
 
@@ -28,3 +29,15 @@ const typeEffect = () => {
 }
 
 typeEffect();
+
+//DISPLAY DE IMAGEN ON CLICK
+document.querySelectorAll(".accordion-img").forEach(image =>{
+    image.onclick = () =>{
+        document.querySelector(".popup-image").style.display = "block";
+        document.querySelector(".popup-image img").src = image.getAttribute("src");
+    }
+});
+
+document.querySelector(".popup-image span").onclick = () =>{
+    document.querySelector(".popup-image").style.display = "none";
+}
