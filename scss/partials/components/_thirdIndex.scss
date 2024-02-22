@@ -1,0 +1,98 @@
+.thirdSection{
+    /*background: #23074d;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*background: #16222A;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    background: #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+
+    position: relative;
+    padding: 1%;
+    height: 1240px;
+}
+
+
+.thirdSection{
+    #linknavCertificados{
+        font-family: "Source Sans 3", sans-serif;
+        font-weight: 600;
+        font-size: 60px;
+        font-weight: bolder;
+        color: white;
+        position: relative;
+        top: 10rem;
+        margin-left: 3%;
+    }
+
+    .accordion{
+        margin-top: 13%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .accordion-body{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 2%;
+    }
+
+    .accordion-item{
+        background-color: #dbd6d6;
+        border: 0;
+    }
+
+    .accordion-button{
+        background-color: #101214;
+        margin-top: 2px;
+        /*color: #37ff14bb;*/
+        color: map-get($mainColors, azulTxt);
+        font-family: 'Aboreto', system-ui;
+        font-weight: 600;
+        letter-spacing: 3px;
+        transition: 0.5s;
+        &:hover{
+            background-color: #171a1d;
+            letter-spacing: 4px;
+        }
+    }
+
+    .accordion-header{
+        text-align: center;
+    }
+
+    .accordion-img{
+        width: 400px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        transition: 0.2s;
+        &:hover{
+            box-shadow: 0 0 6px 0 map-get($mainColors, azulAlt);
+        }
+    }
+}
+
+.custom-shape-divider-top-1708564563 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1708564563 svg {
+    position: relative;
+    display: block;
+    width: calc(120% + 1.3px);
+    height: 152px;
+}
+
+.custom-shape-divider-top-1708564563 .shape-fill {
+    fill: #302B63;
+}
