@@ -1,0 +1,65 @@
+#contactameTitle{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 425px;
+}
+
+.finalSection{
+    //background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba($color: #fccd6f, $alpha: 0.1);
+    /* border-radius: 0 0 20px 20px; */
+    /* border-radius: 20px; */
+    box-shadow: 0 0 1px 1px #fccd6f;
+    width: 102%;
+    height: 200px;
+    position: relative;
+    left: -1%;
+    top: 17%;
+
+    .contacto-contenedor{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5%;
+        padding: 30px 0;
+
+        .contacto-contenido{
+            width: 300px;
+            background-color: rgba($color: #111529, $alpha: 0.7);
+            border-radius: 4px;
+            display: flex;
+            text-align: center;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 2%;
+
+            p{
+                font-family: "Source Sans 3", sans-serif;
+                color: #fccd6f;
+                padding: 4px 0;
+                margin-top: 12px;
+            }
+
+            .fa-envelope{
+                color: white;
+                padding: 4px 0;
+                margin-top: 15px;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.redes2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    top: 480px;
+}

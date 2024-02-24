@@ -352,7 +352,7 @@ header.sticky .nav-link:hover {
   background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: relative;
   padding: 1%;
-  height: 2100px;
+  height: 3000px;
 }
 
 .thirdSection #linknavCertificados {
@@ -570,6 +570,67 @@ header.sticky .nav-link:hover {
   width: 100px;
   height: 100px;
   margin-top: 2%;
+}
+
+#contactameTitle {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 425px;
+}
+
+.finalSection {
+  background-color: rgba(252, 205, 111, 0.1);
+  /* border-radius: 0 0 20px 20px; */
+  /* border-radius: 20px; */
+  box-shadow: 0 0 1px 1px #fccd6f;
+  width: 102%;
+  height: 200px;
+  position: relative;
+  left: -1%;
+  top: 17%;
+}
+.finalSection .contacto-contenedor {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5%;
+  padding: 30px 0;
+}
+.finalSection .contacto-contenedor .contacto-contenido {
+  width: 300px;
+  background-color: rgba(17, 21, 41, 0.7);
+  border-radius: 4px;
+  display: flex;
+  text-align: center;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 2%;
+}
+.finalSection .contacto-contenedor .contacto-contenido p {
+  font-family: "Source Sans 3", sans-serif;
+  color: #fccd6f;
+  padding: 4px 0;
+  margin-top: 12px;
+}
+.finalSection .contacto-contenedor .contacto-contenido .fa-envelope {
+  color: white;
+  padding: 4px 0;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.redes2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  top: 480px;
 }
 
 /*    MEDIA QUERIES    */
