@@ -61,5 +61,23 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    top: 480px;
+    bottom: 22px;
+    z-index: 1;
+}
+
+.thanksDiv{
+    background-color: rgba($color: #111529, $alpha: 0.7);
+    position: relative;
+    width: 102%;
+    left: -1%;
+    top: 468px;
+
+    h3{
+        padding: 100px;
+        font-family: "Source Sans 3", sans-serif;
+        color: #fccd6f;
+        font-size: 50px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
 }
