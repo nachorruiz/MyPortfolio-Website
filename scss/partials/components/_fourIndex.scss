@@ -1,4 +1,4 @@
-#linknavLenguajes{
+#linknavIdiomas{
     font-family: "Source Sans 3", sans-serif;
     font-weight: 600;
     font-size: 60px;
@@ -79,5 +79,41 @@
         top: 10px;
         border-radius: 0 0 4px 4px;
         box-shadow: 0 0 6px 1px gray;
+    }
+}
+
+#linknavExtraSkills{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    top: 16rem;
+}
+
+.fourSection1-2{
+    background-color: rgba(0, 0, 0, 0.7);
+    /* border-radius: 0 0 20px 20px; */
+    /* border-radius: 20px; */
+    border-radius: 0 40px 40px 0;
+    box-shadow: 0 0 22px -13px #ffffff;
+    width: 35%;
+    /* height: 855px; */
+    position: relative;
+    left: -1%;
+    top: 13%;
+
+    .grafico-container1-2{
+        position: relative;
+        margin: 1% 8%;
+    }
+
+    .extra-skills-img{
+        background-color: rgba($color: #3b3b3a, $alpha: 0.6);
+        border-radius: 16px;
+        width: 100px;
+        height: 100px;
+        margin-top: 2%;
     }
 }
