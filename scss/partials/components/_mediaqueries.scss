@@ -4,3 +4,83 @@
         flex-basis: 100%;
     }
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1299px){
+    .asideContainer{
+        margin-top: 22%;
+        .asideContenido{
+            h1{
+                font-size: 35px;
+                strong{
+                    font-size: 25px;
+                }
+            }
+
+            h2{
+                font-size: 17px;
+                margin-top: 5%;
+            }
+        }
+    }
+    .buttonContacto{
+        font-size: 15px !important;
+    }
+
+    .sectionContainer{
+        bottom: 0;
+    }
+
+    .sectionContenido{
+        width: 35%;
+        height: 350px;
+        left: 58%;
+    }
+
+    .redes{
+        left: 96%;
+    }
+
+    //SEGUNDA SECCION
+    .secondSection{
+        height: 1433px;
+    }
+
+    //TERCERA SECCION
+    .thirdSection{
+        height: 2617px;
+        .accordion{
+            margin-top: 18%;
+        }
+    }
+
+    //CUARTA SECCION
+    #linknavIdiomas{
+        top: 8rem;
+    }
+
+    .fourSection{
+        top: 5%;
+    }
+
+    #linknavExtraSkills{
+        top: 18rem;
+    }
+
+    .fourSection1-2{
+        border-radius: unset;
+        width: 102%;
+        top: 11%;
+    }
+
+    //FINAL SECCION
+
+    .finalSection{
+        .contacto-contenedor{
+            gap: 3%;
+        }
+    }
+
+    .thanksDiv{
+        top: 442px;
+    }
+}

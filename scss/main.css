@@ -352,7 +352,7 @@ header.sticky .nav-link:hover {
   background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: relative;
   padding: 1%;
-  height: 2783px;
+  height: 2782px;
 }
 
 .thirdSection #linknavCertificados {
@@ -465,7 +465,7 @@ header.sticky .nav-link:hover {
   font-weight: bolder;
   color: white;
   position: relative;
-  top: 10rem;
+  top: 16rem;
   margin-left: 50%;
 }
 
@@ -545,7 +545,7 @@ header.sticky .nav-link:hover {
   font-weight: bolder;
   color: white;
   position: relative;
-  top: 16rem;
+  top: 22rem;
 }
 
 .fourSection1-2 {
@@ -580,7 +580,7 @@ header.sticky .nav-link:hover {
   color: white;
   position: relative;
   text-align: center;
-  top: 425px;
+  top: 450px;
 }
 
 .finalSection {
@@ -618,7 +618,7 @@ header.sticky .nav-link:hover {
   padding: 4px 0;
   margin-top: 12px;
 }
-.finalSection .contacto-contenedor .contacto-contenido .fa-envelope {
+.finalSection .contacto-contenedor .contacto-contenido .iconos-contacto {
   color: white;
   padding: 4px 0;
   margin-top: 15px;
@@ -639,7 +639,7 @@ header.sticky .nav-link:hover {
   position: relative;
   width: 102%;
   left: -1%;
-  top: 468px;
+  top: 467px;
 }
 .thanksDiv h3 {
   padding: 100px;
@@ -654,6 +654,64 @@ header.sticky .nav-link:hover {
 @media only screen and (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     flex-basis: 100%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1299px) {
+  .asideContainer {
+    margin-top: 22%;
+  }
+  .asideContainer .asideContenido h1 {
+    font-size: 35px;
+  }
+  .asideContainer .asideContenido h1 strong {
+    font-size: 25px;
+  }
+  .asideContainer .asideContenido h2 {
+    font-size: 17px;
+    margin-top: 5%;
+  }
+  .buttonContacto {
+    font-size: 15px !important;
+  }
+  .sectionContainer {
+    bottom: 0;
+  }
+  .sectionContenido {
+    width: 35%;
+    height: 350px;
+    left: 58%;
+  }
+  .redes {
+    left: 96%;
+  }
+  .secondSection {
+    height: 1433px;
+  }
+  .thirdSection {
+    height: 2617px;
+  }
+  .thirdSection .accordion {
+    margin-top: 18%;
+  }
+  #linknavIdiomas {
+    top: 8rem;
+  }
+  .fourSection {
+    top: 5%;
+  }
+  #linknavExtraSkills {
+    top: 18rem;
+  }
+  .fourSection1-2 {
+    border-radius: unset;
+    width: 102%;
+    top: 11%;
+  }
+  .finalSection .contacto-contenedor {
+    gap: 3%;
+  }
+  .thanksDiv {
+    top: 442px;
   }
 }
 .buttonContacto {
