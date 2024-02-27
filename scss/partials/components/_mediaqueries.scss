@@ -112,6 +112,21 @@
                 color: unset;
             }
         }
+
+    }
+
+    .navbar-expand-lg{
+        .navbar-collapse{
+            position: absolute !important;
+            background: #2a2559f5;
+            right: 1% !important;
+            top: -5% !important;
+            padding: 4% 0;
+            z-index: -1;
+            text-align: center;
+            width: 43%;
+            border-radius: 16px 0 16px 16px;
+        }
     }
 
     .navbar-toggler{
@@ -300,8 +315,13 @@
     .navbar-expand-lg{
         .navbar-collapse{
             position: absolute;
-            right: 2%;
-            top: 65%;
+            background: #2a2559f5;
+            right: -1%;
+            left: -1%;
+            top: -5%;
+            padding: 4% 0;
+            z-index: -1;
+            text-align: center;
         }
     }
 
@@ -397,6 +417,11 @@
         .accordion-img{
             width: 250px;
         }
+        .popup-image{
+            img{
+                width: 99%;
+            }
+        }
     }
 
     //FOUR SECTION
@@ -462,5 +487,10 @@
     }
     .thanksDiv{
         top: 390px;
+        h3{
+            letter-spacing: 0;
+            padding: 100px 0;
+            font-size: 35px;
+        }
     }
 }
