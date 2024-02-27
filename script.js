@@ -41,3 +41,34 @@ document.querySelectorAll(".accordion-img").forEach(image =>{
 document.querySelector(".popup-image span").onclick = () =>{
     document.querySelector(".popup-image").style.display = "none";
 }
+
+//NAVBAR CHANGE ON SCROLL
+
+function myFunction(x){
+    if(x.matches){
+        window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    }
+    else{
+        window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY < 0);
+        })
+    }
+}
+
+var x = window.matchMedia("(min-width: 992px)")
+
+myFunction(x);
+
+x.addEventListener("change", function(){
+    myFunction(x);
+});
+
+/*
+window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+})*/

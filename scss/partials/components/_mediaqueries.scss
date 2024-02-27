@@ -84,3 +84,181 @@
         top: 442px;
     }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 991px){
+
+    //HEADER
+    header .sticky{
+        .navbar{
+            background-color: transparent !important;
+            width: 0;
+            padding: 0;
+            top: 0;
+            right: 0;
+            border-radius: 0;
+            box-shadow: 0;
+        }
+        #logo{
+            display: unset;
+        }
+        .navbar-collapse{
+            justify-content: unset;
+        }
+        .nav-link.active{
+            color: unset;
+        }
+        .nav-link{
+            &:hover{
+                color: unset;
+            }
+        }
+    }
+
+    .navbar-toggler{
+        position: absolute;
+        right: 2%;
+        top: 15%;
+    }
+
+    .navbar-expand-lg{
+        .navbar-collapse{
+            position: absolute;
+            right: 2%;
+            top: 65%;
+        }
+    }
+
+    //MAIN
+    .asideContainer{
+        margin-top: 10vh;
+        width: 100%;
+        .asideContenido{
+            width: unset;
+            h1{
+                font-size: 35px;
+                letter-spacing: 6px;
+                text-align: center;
+                strong{
+                    font-size: 30px;
+                }
+            }
+            h2{
+                font-size: 14px;
+                margin-top: 4vh;
+                text-align: center;
+            }
+        }
+    }
+
+    .buttonContacto{
+        font-size: 10px !important;
+        margin-top: 2vh !important;
+        width: 40%;
+        left: 29.5%;
+        &:hover{
+            font-size: 11px;
+        }
+    }
+
+    .sectionContainer{
+        bottom: -285px;
+    }
+    .sectionContenido{
+        width: 50%;
+        left: unset;
+        margin: 0 25%;
+        height: 28vh;
+    }
+
+    #tituloPie{
+        margin: 0.5% 0 150px 0;
+    }
+
+    .redes{
+        left: 79%;
+        bottom: 317px;
+    }
+
+    //SECOND SECTION
+    .habilidadesContenedor{
+        .habilidades{
+            width: 140px;
+            height: 140px;
+            p{
+                bottom: 39px;
+            }
+        }
+        .skillLogos{
+            left: 45px;
+        }
+    }
+
+    //THIRD SECTION
+    .thirdSection{
+        .accordion{
+            margin-top: 210px;
+            margin-right: 1.5%;
+            margin-left: 0;
+        }
+        .accordion-img{
+            width: 286px;
+        }
+    }
+
+    //FOUR SECTION
+    #linknavIdiomas{
+        top: 7rem;
+        text-align: center;
+        margin-left: 0;
+    }
+    .fourSection{
+        border-radius: 40px;
+        width: 75%;
+        margin-left: 13%;
+        top: 4%;
+        right: 0;
+    }
+    .grafico-lenguaje{
+        #grafico-ingles{
+            top: 56px;
+        }
+    }
+
+    #linknavExtraSkills{
+        text-align: center;
+        top: 16rem;
+    }
+    .fourSection1-2{
+        border-radius: 40px;
+        width: 75%;
+        top: 10%;
+        left: 14%;
+        .extra-skills-img{
+            width: 90px;
+            height: 90px;
+        }
+    }
+
+    //FINAL SECTION
+    #contactameTitle{
+        text-align: center;
+        top: 400px;
+    }
+    .finalSection{
+        top: 14%;
+        .contacto-contenedor{
+            padding: 30px 0;
+            .contacto-contenido{
+                width: 215px;
+                height: 50px;
+            }
+        }
+    }
+    .redes2{
+        bottom: 13px;
+    }
+    .thanksDiv{
+        top: 390px;
+    }
+
+}
